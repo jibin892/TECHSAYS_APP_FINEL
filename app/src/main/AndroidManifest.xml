@@ -17,7 +17,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Course_details.Android_details"></activity>
+        <activity android:name=".No_Internet.Internet_off"></activity>
+        <activity android:name=".Course_details.Android_details" />
         <activity android:name=".Message.Message_home" />
         <activity android:name=".Website.Website_home" />
         <activity
@@ -33,7 +34,6 @@
         <activity android:name=".Login_and_Register.Registration" />
         <activity android:name=".Course_details.Digitalmarketing_details" />
         <activity android:name=".Course_details.Webdevulupment_details" />
-
         <activity android:name=".Tab_Home.Home" />
         <activity android:name=".Splash" />
         <activity

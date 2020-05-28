@@ -119,24 +119,7 @@ EnableRuntimePermission();
         MyReceiverr = new MyReceiver();
         broadcastIntent();
 //
-//ConnectivityManager cm=(ConnectivityManager)getSystemService(Context.CONNECTIVITY_SERVICE);
-//
-//NetworkInfo activeNetwork=cm.getActiveNetworkInfo();
-//
-//boolean isConnected=activeNetwork !=null && activeNetwork.isConnected();
-//if (isConnected){
-//
-//
-//}
-//else{
-//
-//
-//    final Dialog dialog=new Dialog(Home.this,android.R.style.Theme_Dialog);
-//
-//    dialog.setContentView(R.layout.fragment_two_white_state1);
-//    dialog.show();
-//
-//}
+
 
         interpolator = new FastOutSlowInInterpolator();
         tabLayout = findViewById(R.id.news_tab);
