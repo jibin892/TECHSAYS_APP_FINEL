@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ടെക്‌സെയ്സ്</string>
+    <string name="skip">ഒഴിവാക്കുക</string>
+    <string name="start">ആരംഭിക്കുക</string>
+    <string name="next">അടുത്തത്</string>
+    <string name="title_activity_hompage">ഹോംപേജ്</string>
+    <string name="title_home">ഹോം</string>
+    <string name="changelanguage">ഭാഷ മാറ്റുക</string>
+    <string name="title_dashboard">ഡാഷ്ബോർഡ്</string>
+    <string name="DarkMode">ഡാർക്ക് മോഡ് </string>
+    <string name="DeleteAccount">അക്കൗണ്ട് ഇല്ലാതാക്കുക</string>
+    <string name="title_notifications">അറിയിപ്പുകൾ</string>
+    <string name="course">കോഴ്സുകൾ</string>
+    <string name="service">സേവനങ്ങള്</string>
+    <string name="wallet">വാലറ്റ്</string>
+    <string name="Home">ഹോം</string>
+    <string name="Contact">കോൺ‌ടാക്റ്റ്</string>
+    <string name="Share">പങ്കിടുക</string>
+    <string name="Callback">തിരിച്ചു വിളിക്കുക</string>
+    <string name="Profile" >പ്രൊഫൈൽ</string>
+    <string name="Video">ട്യൂട്ടോറിയലുകൾ</string>
+    <string name="Aboutus">ഞങ്ങളേക്കുറിച്ച്</string>
+    <string name="UserInfo">ഉപയോക്തൃ വിവരം</string>
+    <string name="S">ക്രമീകരണങ്ങൾ</string>
+    <string name="Logout">ലോഗൗട്ട് </string>
+    <string name="chat">ഓൺലൈൻ പിന്തുണ
+</string>
+
+
+    <string name="android">  Android അപ്ലിക്കേഷൻ വികസനം
+</string>
+
+    Android അപ്ലിക്കേഷൻ വികസനം
+    <string name="payment">പേയ്മെന്റ്</string>
+    <string name="des">സിസ്റ്റം സുഗമമായും പ്രതികരിക്കുന്നതിലും പ്രവർത്തിക്കുന്നുവെന്ന് ഉറപ്പാക്കുന്നതിന് ടെക്സെസ് എല്ലാ ചെറിയ വിശദാംശങ്ങളും കണക്കിലെടുക്കുന്നു. ഉയർന്ന നിലവാരമുള്ള പരിഹാരങ്ങൾ നേടുന്നതിന് ടെക്‌സെയ്സ് മിനിഫൈഡ് സാങ്കേതികവിദ്യകൾ ഉപയോഗിക്കുന്നു ..</string>
+    <string name="techsays">ടെക്‌സെയ്സ് സോഫ്റ്റ്‌വെയർ  സൊല്യൂഷൻസ് പ്രൈവറ്റ് ലിമിറ്റഡ്</string>
+    <string name="techsayspvt">Techsays Software Solutions Pvt Ltd.</string>
+
+</resources>

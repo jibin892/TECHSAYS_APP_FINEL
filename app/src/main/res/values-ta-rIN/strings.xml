@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">டெச்ச்யஸ் </string>
+    <string name="skip">SKIP</string>
+    <string name="start">START</string>
+    <string name="next">NEXT</string>
+    <string name="title_activity_hompage">ஹோமோ</string>
+    <string name="title_home">ஹோமோ</string>
+    <string name="title_dashboard"> டாஷ்போர்டு</string>
+    <string name="title_notifications">அறிவிப்புகள்</string>
+    <string name="changelanguage">மொழியை மாற்றவும்</string>
+    <string name="DarkMode">இருண்ட பயன்முறை</string>
+    <string name="DeleteAccount">கணக்கை நீக்குக</string>
+    <string name="Profile">சுயவிவரம்</string>
+    <string name="Video">பயிற்சிகள்</string>
+    <string name="course">நிச்சயமாக</string>
+    <string name="service">சேவை</string>
+    <string name="Home">ஹோமோ</string>
+    <string name="Contact">தொடர்பு</string>
+    <string name="Share">பகிர்</string>
+    <string name="Callback">மீண்டும் அழைக்கவும்</string>
+    <string name="Aboutus">எங்களை பற்றி</string>
+    <string name="S">அமைப்புகள்</string>
+    <string name="Logout">வெளியேறு</string>
+    <string name="chat">ஆன்லைன் ஆதரவு</string>
+    <string name="UserInfo">பயனர் தகவல்</string>
+    <string name="payment">கட்டணம்</string>
+    <string name="android">
+Android பயன்பாட்டு மேம்பாடு
+</string>
+    <string name="des">Techsays takes into consideration every little detail to make sure the system run smoothly and responsively. Techsays employs minifed technologies to achieve high quality solutions..</string>
+    <string name="techsays">Techsays Software Solutions Pvt Ltd.</string>
+
+    <string name="wallet">பணப்பை</string>
+    <string name="techsayspvt">Techsays Software Solutions Pvt Ltd.</string>
+
+</resources>

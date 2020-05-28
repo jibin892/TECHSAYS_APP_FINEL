@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">टेक्सेस</string>
+    <string name="skip">छोड़ें</string>
+    <string name="start">शुरू</string>
+    <string name="next">आगे</string>
+    <string name="title_activity_hompage">मुखपृष्ठ</string>
+    <string name="title_home">होम</string>
+    <string name="changelanguage">भाषा बदलो</string>
+    <string name="DarkMode">डार्क मोड</string>
+    <string name="DeleteAccount">खाता हटा दो</string>
+    <string name="title_dashboard">डैशबोर्ड</string>
+    <string name="title_notifications">सूचनाएं</string>
+    <string name="course">पाठ्यक्रम</string>
+    <string name="service">सेवाएं</string>
+    <string name="wallet">बटुआ</string>
+    <string name="Home">होम</string>
+    <string name="Contact">संपर्क करें</string>
+    <string name="Share">शेयर</string>
+    <string name="Callback">वापस कॉल करें</string>
+    <string name="Aboutus">हमारे बारे में</string>
+    <string name="payment">
+भुगतान</string>
+    <string name="android">
+Android ऐप डेवलपमेंट
+</string>
+    <string name="S">समायोजन</string>
+    <string name="UserInfo">उपयोगकर्ता जानकारी</string>
+    <string name="Profile" >प्रोफ़ाइल</string>
+    <string name="Video">ट्यूटोरियल</string>
+    <string name="chat">ऑनलाइन समर्थन</string>
+    <string name="des">सिस्टम सुचारू रूप से और जिम्मेदारी से चलना सुनिश्चित करने के लिए टेकसैस हर छोटे विस्तार को ध्यान में रखता है। टेक्सेस  उच्च गुणवत्ता वाले समाधान प्राप्त करने के लिए मिनीफाइड तकनीकों को काम में लाती है।</string>
+    <string name="Logout">लॉग आउट</string>
+    <string name="techsays">टेक्सेस वारा संचालित सॉफ्टवेयर सॉल्यूशंस</string>
+    <string name="techsayspvt">Techsays Software Solutions Pvt Ltd.</string>
+
+</resources>

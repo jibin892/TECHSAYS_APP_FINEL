@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/Home" />
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/ic_local_phone_black_24dp"
+            android:title="@string/Contact" />
+        <item
+            android:id="@+id/nav_callbackk"
+            android:icon="@drawable/ic_arrow_back_24dp"
+            android:title="@string/Callback" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_about_black_24dp"
+            android:title="@string/Aboutus" />
+        <item
+            android:id="@+id/nav_msg"
+            android:icon="@drawable/msg"
+            android:title="@string/chat" />
+    </group>
+
+    <item android:title="@string/S">
+        <menu>
+            <group android:checkableBehavior="single">
+
+
+                <item
+                    android:id="@+id/nav_rate"
+                    android:icon="@drawable/ic_star_border_black_24dp"
+                    android:title="@string/rate" />
+
+                <item
+                    android:id="@+id/nav_share"
+                    android:icon="@drawable/ic_share_black_24dp"
+                    android:title="@string/Share" />
+                <item
+                    android:id="@+id/nav_settings"
+                    android:icon="@drawable/ic_settings_black_24dp"
+                    android:title="@string/S" />
+                <item
+                    android:id="@+id/nav_logout"
+                    android:icon="@drawable/ic_exit_to_app_black_24dp"
+                    android:title="@string/Logout" />
+            </group>
+        </menu>
+    </item>
+
+</menu>

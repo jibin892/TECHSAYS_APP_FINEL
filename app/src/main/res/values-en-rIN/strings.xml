@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Techsays</string>
+    <string name="skip">SKIP</string>
+    <string name="start">START</string>
+    <string name="next">NEXT</string>
+    <string name="title_activity_hompage">Hompage</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="changelanguage">Change Language</string>
+    <string name="DarkMode">Dark Mode</string>
+    <string name="DeleteAccount">Delete Account</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="course">Course</string>
+    <string name="Profile" >Profile</string>
+    <string name="Video">Tutorials</string>
+    <string name="service">Service</string>
+    <string name="Home">Home</string>
+    <string name="Contact">Contact</string>
+    <string name="wallet">Wallet</string>
+    <string name="UserInfo">User Info</string>
+    <string name="Share">Share</string>
+    <string name="Callback">Call Back</string>
+    <string name="chat">Online support</string>
+    <string name="des">Techsays takes into consideration every little detail to make sure the system run smoothly and responsively. Techsays employs minifed technologies to achieve high quality solutions..</string>
+    <string name="Aboutus">AboutUs</string>
+    <string name="S">Settings</string>
+    <string name="Logout">Logout</string>
+    <string name="techsays">Techsays</string>
+    <string name="techsayspvt">Techsays Software Solutions Pvt Ltd.</string>
+
+</resources>

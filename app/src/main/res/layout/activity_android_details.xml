@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbar4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:id="@+id/collapsing2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_scrollFlags="exitUntilCollapsed|scroll">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                app:layout_collapseMode="parallax"
+                app:layout_collapseParallaxMultiplier="0.9">
+
+                <ImageView
+                    android:id="@+id/auth_icon"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:layout_gravity="center"
+                    android:padding="24dp"
+                    android:src="@drawable/andorid_devlupment"
+                    android:transitionName="image"
+                    app:layout_collapseMode="parallax"
+                    app:layout_collapseParallaxMultiplier="0.9" />
+
+
+
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/setBalanceAmount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginStart="@dimen/_50sdp"
+                android:layout_marginTop="@dimen/_50sdp"
+                android:text="@string/app_name"
+                android:transitionName="name"
+                android:textAppearance="@style/CustomTitle"
+                android:layout_marginLeft="@dimen/_50sdp" />
+
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:animateLayoutChanges="true"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/hided_layer1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:gravity="center_vertical"
+                android:layout_gravity="center_vertical"
+                android:orientation="vertical"
+                android:padding="8dp"
+                android:visibility="gone"
+                tools:visibility="visible">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:fontFamily="@font/raleway_bold"
+                    android:gravity="center"
+                    android:lineSpacingExtra="2dp"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginBottom="4dp"
+                    android:padding="4dp"
+                    android:text="1:OOPs Concepts"
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:fontFamily="@font/poppins_light"
+                    android:gravity="left"
+                    android:lineSpacingExtra="2dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="24dp"
+                    android:padding="4dp"
+                    android:text="Our core Java programming Classes are designed for students and working professionals. Java is an object-oriented, class-based, concurrent, secured and general-purpose computer-programming language. It is a widely used robust technology."
+                    android:textColor="@android:color/white"
+                    android:textSize="14sp" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:fontFamily="@font/raleway_bold"
+                    android:gravity="center"
+                    android:lineSpacingExtra="2dp"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginBottom="4dp"
+                    android:padding="4dp"
+                    android:text="2:Abstract class &amp; Interface"
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:fontFamily="@font/poppins_light"
+                    android:gravity="left"
+                    android:lineSpacingExtra="2dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="24dp"
+                    android:padding="4dp"
+                    android:text="Abstract Class. An abstract class permits you to make functionality that subclasses can implement or override whereas an interface only permits you to state functionality but not to implement it. A class can extend only one abstract class while a class can implement multiple interfaces."
+                    android:textColor="@android:color/white"
+                    android:textSize="14sp" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:fontFamily="@font/raleway_bold"
+                    android:gravity="center"
+                    android:lineSpacingExtra="2dp"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginBottom="4dp"
+                    android:padding="4dp"
+                    android:text="3:Exception handling"
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:fontFamily="@font/poppins_light"
+                    android:gravity="left"
+                    android:lineSpacingExtra="2dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="24dp"
+                    android:padding="4dp"
+                    android:text="Exception handling is the process of responding to the occurrence, during computation, of exceptions – anomalous or exceptional conditions requiring special processing – often disrupting the normal flow of program execution."
+                    android:textColor="@android:color/white"
+                    android:textSize="14sp" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:fontFamily="@font/raleway_bold"
+                    android:gravity="center"
+                    android:lineSpacingExtra="2dp"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginBottom="4dp"
+                    android:padding="4dp"
+                    android:text="4:Introduction To Android "
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:fontFamily="@font/poppins_light"
+                    android:gravity="left"
+                    android:lineSpacingExtra="2dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="24dp"
+                    android:padding="4dp"
+                    android:text="• Why Android? • Android Run Time • Android Studio • Introduction to Gradle"
+                    android:textColor="@android:color/white"
+                    android:textSize="14sp" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:fontFamily="@font/raleway_bold"
+                    android:gravity="center"
+                    android:lineSpacingExtra="2dp"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginBottom="4dp"
+                    android:padding="4dp"
+                    android:text="5:Fundamentals  "
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:fontFamily="@font/poppins_light"
+                    android:gravity="left"
+                    android:lineSpacingExtra="2dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="24dp"
+                    android:padding="4dp"
+                    android:text="Basic Building blocks – Activities, Services, Broadcast Receivers &amp; Content providers • UI Components- Views &amp; notifications • Components for communication -Intents &amp; Intent Filters • Android API levels(versions &amp; version names)"
+                    android:textColor="@android:color/white"
+                    android:textSize="14sp" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:fontFamily="@font/raleway_bold"
+                    android:gravity="center"
+                    android:lineSpacingExtra="2dp"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginBottom="4dp"
+                    android:padding="4dp"
+                    android:text="6:Basic UI design, Styles &amp; Themes "
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:fontFamily="@font/poppins_light"
+                    android:gravity="left"
+                    android:lineSpacingExtra="2dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="24dp"
+                    android:padding="4dp"
+                    android:text="• Form widgets • Text Fields • Layouts o RelativeLayout ,TableLayout, FrameLayout, LinearLayout, Nested layouts o [dip,dp,sip,sp] versus px o styles.xml o drawable resources for shapes,gradients(selectors) o Style attribute in layout file • Applying themes via code and manifest file • AlertDialogs &amp; Toast\ • Time and Date • Images and media"
+                    android:textColor="@android:color/white"
+                    android:textSize="14sp" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:fontFamily="@font/raleway_bold"
+                    android:gravity="center"
+                    android:lineSpacingExtra="2dp"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginBottom="4dp"
+                    android:padding="4dp"
+                    android:text="7:Advanced Android "
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:fontFamily="@font/poppins_light"
+                    android:gravity="left"
+                    android:lineSpacingExtra="2dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="24dp"
+                    android:padding="4dp"
+                    android:text="Payment gateway-API Integration-SMS Integration-QR Code Scanner and reader-Sensors"
+                    android:textColor="@android:color/white"
+                    android:textSize="14sp" />
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/open_web"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_margin="@dimen/fab_margin"
+                    android:background="@drawable/btn_corner3"
+                    android:src="@drawable/webs"
+                    android:tint="@color/colorPrimary"
+                    app:backgroundTint="@color/white"
+                    app:borderWidth="0dp"
+                    app:fabSize="normal"
+                    app:layout_anchor="@+id/collapsing2"
+                    app:layout_anchorGravity="end|bottom" />
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/hided_layer2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/activity_horizontal_margin2"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:fontFamily="@font/poppins_medium"
+                    android:padding="@dimen/activity_horizontal_margin2"
+                    android:text="Our Syllabus"
+                    android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle2"/>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rv13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:nestedScrollingEnabled="false"
+                    android:paddingStart="@dimen/default_sides"
+                    android:paddingEnd="@dimen/default_sides"
+                    tools:itemCount="4"
+                    tools:listitem="@layout/content_app_list" />
+
+
+                <Button
+                    android:id="@+id/opefn_web"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="@dimen/padding_10"
+                    android:layout_marginEnd="@dimen/padding_10"
+                    android:layout_marginTop="25dp"
+                    android:background="@drawable/homebutton"
+                    android:text="REGISTRATION"
+                    android:layout_marginBottom="25dp"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/raleway_bold"
+                    android:padding="@dimen/_50sdp"
+                     />
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+
+
+    </androidx.core.widget.NestedScrollView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/fab_margin"
+        android:background="@drawable/btn_corner3"
+        android:src="@drawable/ic_info_co_24dp"
+        app:backgroundTint="@color/white"
+        app:borderWidth="0dp"
+        app:fabSize="normal"
+        app:layout_anchor="@+id/collapsing2"
+        app:layout_anchorGravity="end|bottom" />
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

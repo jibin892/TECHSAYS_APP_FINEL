@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:id="@+id/callbackview"
+
+    android:background="@drawable/circularbordersolid"
+    android:fillViewport="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/frame24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="225dp"
+                    android:layout_height="225dp"
+                    android:layout_gravity="center"
+                    android:alpha="0.2"
+                    android:src="@drawable/shadow" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="175dp"
+                    android:layout_height="175dp"
+                    android:layout_gravity="center"
+                    android:alpha="0.2"
+                    android:src="@drawable/shadow" />
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/deleteaccountimage"
+                    android:layout_width="130dp"
+                    android:layout_height="158dp"
+                    android:layout_gravity="center"
+                    android:padding="16dp"
+                    android:src="@drawable/logo"
+                    app:layout_anchor="@+id/frame23"
+                    app:layout_anchorGravity="top|center_horizontal" />
+
+            </FrameLayout>
+
+
+
+            <TextView
+                android:id="@+id/deleteaccountname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/poppins_light"
+                android:padding="8dp"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+
+
+            <TextView
+                android:id="@+id/deleteaccountemail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/poppins_light"
+                android:padding="8dp"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/frame23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:orientation="vertical"
+            android:padding="12dp">
+
+            <TextView
+                android:id="@+id/deletaccounttxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/montserrat"
+                android:gravity="center"
+                android:padding="12dp"
+                android:text="@string/DeleteAccount"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/deleteaccountbtn"
+                style="@style/ButtonStyle"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+              android:layout_gravity="center"
+                android:background="@drawable/gradient_bg1"
+                android:gravity="center"
+                android:text="DELETE"
+                android:textAllCaps="false"
+               />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/poppins_light"
+            android:padding="8dp"
+            android:text="@string/techsays"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbar4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:id="@+id/collapsing2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_scrollFlags="exitUntilCollapsed|scroll">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                app:layout_collapseMode="parallax"
+                app:layout_collapseParallaxMultiplier="0.9">
+
+                <ImageView
+                    android:id="@+id/auth_icon"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:layout_gravity="center"
+                    android:padding="24dp"
+                    android:src="@drawable/web_dev"
+                    android:transitionName="image"
+                    app:layout_collapseMode="parallax"
+                    app:layout_collapseParallaxMultiplier="0.9" />
+
+
+
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/setBalanceAmount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginStart="@dimen/_50sdp"
+                android:layout_marginTop="@dimen/_50sdp"
+                android:text="@string/app_name"
+                android:transitionName="name"
+                android:textAppearance="@style/CustomTitle"
+                android:layout_marginLeft="@dimen/_50sdp" />
+
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:animateLayoutChanges="true"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/hided_layer1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:gravity="center_vertical"
+                android:layout_gravity="center_vertical"
+                android:orientation="vertical"
+                android:padding="8dp"
+                android:visibility="gone"
+                tools:visibility="visible">
+
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:fontFamily="@font/raleway_bold"
+                    android:gravity="center"
+                    android:lineSpacingExtra="2dp"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginBottom="4dp"
+                    android:padding="4dp"
+                    android:text="1:CSS"
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:fontFamily="@font/poppins_light"
+                    android:gravity="left"
+                    android:lineSpacingExtra="2dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="24dp"
+                    android:padding="4dp"
+                    android:text="Introductions to Cascading Style Sheet, Types of Style Sheets(Inline,Internal And External), CSS for Website Layout And Print Layout, Types Of CSS Selectors, Universal Selector,Type Selector,Class Selector,ID Selector,Child Selector,Descendant Selector."
+                    android:textColor="@android:color/white"
+                    android:textSize="14sp" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:fontFamily="@font/raleway_bold"
+                    android:gravity="center"
+                    android:lineSpacingExtra="2dp"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginBottom="4dp"
+                    android:padding="4dp"
+                    android:text="2:CSS Properties"
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:fontFamily="@font/poppins_light"
+                    android:gravity="left"
+                    android:lineSpacingExtra="2dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="24dp"
+                    android:padding="4dp"
+                    android:text="Type Properties,Background Properties,Block Properties,Box Model Properties,List Properties,Border Properties,Positioning Properties,Properties Useful in Realtime Designing Using CSS for Real Time Practical Works, Defining the Text Styles, Defining the Background Styles,Designing a Menu System(Horizontal,Vertical and Drop Down),Custom Form Designing,DIV+CSS Layout Design,PSD to CSS Conversion."
+                    android:textColor="@android:color/white"
+                    android:textSize="14sp" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:fontFamily="@font/raleway_bold"
+                    android:gravity="center"
+                    android:lineSpacingExtra="2dp"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginBottom="4dp"
+                    android:padding="4dp"
+                    android:text="3:CSS 3 (Advanced Level) "
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:fontFamily="@font/poppins_light"
+                    android:gravity="left"
+                    android:lineSpacingExtra="2dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="24dp"
+                    android:padding="4dp"
+                    android:text="LIntroduction to CSS3 New CSS3 Properties, CSS Rounded Corners, Border Images, Border Shadows CSS Gradients, CSS Background Properties, Text Shadow Property, Text Stroke Property Using CSS3 in Practical Layout, Fonts And Text Styles, Understanding Fonts; The font-family property,The font-size Property,The font-size-adjust Property,The font-stretch Property,The font-style Property,The font-varient Property,The font- weight Property,The font Property,Using the text-transform Property,Using the text-indent Property,Using the Text decoration Property,Using the text –shadow Property,Using the text-stroke Property Creating Boxes and Columns Using CSS Using the padding-top Property, Using the padding-right Property, Using the padding-left Property, Using the padding-bottom Property Displaying,Positioning, and Floating an Element, Setting Fixed Position of an Element, Setting Relative Position of an Element, Setting Absolute Position of an Element."
+                    android:textColor="@android:color/white"
+                    android:textSize="14sp" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:fontFamily="@font/raleway_bold"
+                    android:gravity="center"
+                    android:lineSpacingExtra="2dp"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginBottom="4dp"
+                    android:padding="4dp"
+                    android:text="4:JQUERY "
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:fontFamily="@font/poppins_light"
+                    android:gravity="left"
+                    android:lineSpacingExtra="2dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="24dp"
+                    android:padding="4dp"
+                    android:text="Baner animations, Menu And Navigation, Gallery using Jquery, Slide show and scroll bar, Form,Tabs,Table , Accordian Buttons And Icons, Calender And Date and Time Picker, Text and Link effects, Color Picker ,Graph ,Chart ,Buttons And icons Image effects , Roll Over Images, Jquery For Face Book Icons."
+                    android:textColor="@android:color/white"
+                    android:textSize="14sp" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:fontFamily="@font/raleway_bold"
+                    android:gravity="center"
+                    android:lineSpacingExtra="2dp"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginBottom="4dp"
+                    android:padding="4dp"
+                    android:text="5:Resposive Web design (BOOTSTRAP) "
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:fontFamily="@font/poppins_light"
+                    android:gravity="left"
+                    android:lineSpacingExtra="2dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="24dp"
+                    android:padding="4dp"
+                    android:text="WEB HOSTING Web Hosting Basics ,Domain Registration, Defining Name Server,Using Control Panel,Crearing E mails In C panels, Web Hosting Packages, Maintaining web site"
+                    android:textColor="@android:color/white"
+                    android:textSize="14sp" />
+
+
+
+
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/open_web"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_margin="@dimen/fab_margin"
+                    android:background="@drawable/btn_corner3"
+                    android:src="@drawable/webs"
+                    android:tint="@color/colorPrimary"
+                    app:backgroundTint="@color/white"
+                    app:borderWidth="0dp"
+                    app:fabSize="normal"
+                    app:layout_anchor="@+id/collapsing2"
+                    app:layout_anchorGravity="end|bottom" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/hided_layer2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/activity_horizontal_margin2"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:fontFamily="@font/poppins_medium"
+                    android:padding="@dimen/activity_horizontal_margin2"
+                    android:text="Our Syllabus"
+                    android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle2"/>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rv13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:nestedScrollingEnabled="false"
+                    android:paddingStart="@dimen/default_sides"
+                    android:paddingEnd="@dimen/default_sides"
+                    tools:itemCount="4"
+                    tools:listitem="@layout/content_app_list" />
+
+
+                <Button
+                    android:id="@+id/opefn_web"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="@dimen/padding_10"
+                    android:layout_marginEnd="@dimen/padding_10"
+                    android:layout_marginTop="25dp"
+                    android:background="@drawable/homebutton"
+                    android:text="REGISTRATION"
+                    android:layout_marginBottom="25dp"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/raleway_bold"
+                    android:padding="@dimen/_50sdp"
+                    />
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+
+
+    </androidx.core.widget.NestedScrollView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/fab_margin"
+        android:background="@drawable/btn_corner3"
+        android:src="@drawable/ic_info_co_24dp"
+        app:backgroundTint="@color/white"
+        app:borderWidth="0dp"
+        app:fabSize="normal"
+        app:layout_anchor="@+id/collapsing2"
+        app:layout_anchorGravity="end|bottom" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
